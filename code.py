@@ -28,10 +28,10 @@ if choice == "A":
     print("You have chosen to addd.")
     a1 = int(input("Enter the first addend: "))
     a2 = int(input("Enter the second addend: "))
-    multiply(a1,a2)
+    add(a1,a2)
 
 if choice == "s":
     print("You have chosen to subtract.")
     s1 = int(input("Enter the number you want to subtract: "))
     s2 = int(input("Enter the number that subtracts the first: "))
-    divide(s1,s2)
+    subtract(s1,s2)

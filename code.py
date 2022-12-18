@@ -25,7 +25,7 @@ if choice == "D":
     divide(d1,d2)
 
 if choice == "A":
-    print("You have chosen to addd.")
+    print("You have chosen to add.")
     a1 = int(input("Enter the first addend: "))
     a2 = int(input("Enter the second addend: "))
     add(a1,a2)

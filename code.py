@@ -16,31 +16,31 @@ def r(r1, r2):
 while True:
   choice = input("Choose what kind of action you wish to perform. M to Multiply, D to divide, S to subtract, or R to find remainder:")
 
-  if choice == "M":
+  if choice == "*":
       print("You have chosen to multiply.")
       m1 = int(input("Enter first number to multiply: "))
       m2 = int(input("Enter the second number to multiply: "))
       multiply(m1,m2)
 
-  if choice == "D":
+  if choice == "/":
       print("You have chosen to divide.")
       d1 = int(input("Enter the number you want to be divded: "))
       d2 = int(input("Enter the number that divdes the first: "))
       divide(d1,d2)
 
-  if choice == "A":
+  if choice == "+":
       print("You have chosen to add.")
       a1 = int(input("Enter the first addend: "))
       a2 = int(input("Enter the second addend: "))
       add(a1,a2)
 
-  if choice == "S":
+  if choice == "-":
       print("You have chosen to subtract.")
       s1 = int(input("Enter the number you want to subtract: "))
       s2 = int(input("Enter the number that subtracts the first: "))
       subtract(s1,s2)
       
-  if choice == "R":
+  if choice == "%":
     print("You have chose to find the remainder.")
     r1 = int(input("Enter the number you want to be divided: "))
     r2 = int(input("Enter the number that divides the first: "))

@@ -14,7 +14,7 @@ def r(r1, r2):
   print("The answer is: ", r1 % r2)
   
 while True:
-  choice = input("Choose what kind of action you wish to perform. M to Multiply, D to divide, S to subtract, or R to find remainder:")
+  choice = input("Choose what kind of action you wish to perform. * to Multiply, / to divide, - to subtract, + to add, or % to find remainder:")
 
   if choice == "*":
       print("You have chosen to multiply.")
